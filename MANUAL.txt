@@ -1,0 +1,8 @@
+----------------------------------Commands-------------------------------------
+calserv [ACTION]: Put an action here.
+  READ [MONTH]: Put a month to read.
+    ANYMONTH [DAY]: Enter day to display.
+      1-31: Show all events for that day.
+      0: Show the main events for every applicable day in the month.
+
+Example: [READ NOV 7] would show the list of reminders for The 7th of November
