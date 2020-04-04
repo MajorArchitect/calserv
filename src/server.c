@@ -104,6 +104,7 @@ int main()
           if (strlen(buffer) > 1)
           {
             addchar(buffer, '/0');
+            
             send(client_socket, buffer, strlen(buffer), 0);
           }
         }
